@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Big Noodle Too";
+    src: url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-eaef42cc66ce3dcbe29cd88eca8801d55fe8dcc11c7153cc9c3f3418084ef1c50b1b7e270c826ded2d868a825af5c5b9d9be69d25795aae62c721c64faef1a95.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Big Noodle Too";
+    src: url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique-0762bcfb7ce452ecfa21830ab40ee34f9bf2e6fbcecb649c8995bd59fdf93a74a8345855c3890ec3901ac7ca442040112f37f387c98a57ced5af61d92ee8e06c.woff) format("woff");
+    font-weight: 400;
+    font-style: italic
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: white url(https://d3hmvhl7ru3t12.cloudfront.net/img/ow-heroes-bg-eaa5e09760cf1e126669f9e3a1e1b7e12a4c0c73bb86728015299d99c1907ac1218f0a4304c6233547ae1e93d104adc88636aead01deb7bfebeeb666f07574e3.jpg) no-repeat center top;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    font-family: "Big Noodle Too";
+    font-style: italic;
+    font-size: 3em;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heroes {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero {
+    flex: 0 0 auto;
+    position: relative;
+    margin: 8px 4px;
+    border: solid white;
+    border-width: 4px 0px;
+    width: 150px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.hero-detail {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-card {
+    top: 50px;
+    position: sticky;
+    align-self: flex-start;
+    background-color: rgba(19, 42, 77, .85);
+    color: white;
+    width: 100%;
+}
+
+.card-name,
+.card-quote {
+    font-family: "Big Noodle Too";
+    font-style: italic;
+}
+
+.card-name {
+    font-size: 3em;
+    margin: 0;
+}
+
+.card-quote {
+    color: #00c3ff;
+    font-size: 2em;
+}
+
+.card-image {
+    display: block;
+    width: 150px;
+}
+
+.hero-image {
+    object-fit: contain;
+}
+
+.hero-bio {
+    padding: 8px 16px;
+}
+
+@media (min-width: 700px) {
+
+}
